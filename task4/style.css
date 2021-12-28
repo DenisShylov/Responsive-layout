@@ -6,9 +6,12 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #555;
 }
+body {
+  width: 100%;
+}
 .main {
   display: flex;
-  height: 100vh;
+  min-height: 100%;
 }
 .header {
   display: flex;
@@ -59,13 +62,12 @@ html {
 }
 .nav-list-item {
   display: flex;
+  align-items: center;
   background-color: #808080;
   height: 2em;
   margin-bottom: 0.5em;
 }
 .nav-list-link {
-  display: flex;
-  align-items: center;
   min-width: 100%;
   padding: 0 0.5em;
   color: white;
