@@ -7,11 +7,12 @@ html {
   color: #555;
 }
 body {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 .main {
   display: flex;
-  min-height: 100%;
 }
 .header {
   display: flex;
@@ -65,7 +66,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #808080;
-  height: 2em;
+  line-height: 2em;
   margin-bottom: 0.5em;
   padding: 0;
 }
